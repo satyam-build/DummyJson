@@ -1,0 +1,79 @@
+.productsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 100px;    
+}
+.pro{
+    width: 18%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0 ;
+    background-color: rgba(254, 220, 226, 0.779);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative; 
+}
+ .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+ .pro img{
+    width: 100%;
+    
+    height: 300px;
+    border-radius: 20px;
+}
+
+ .pro .des {
+    text-align: start;
+    padding: 10px 0 ;
+}
+ .pro.des span{
+    color: #606063 ;
+    font-size: 12pz;
+}
+.pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.pro .des i{
+    font-size: 12px;
+    color: rgb(240, 225, 25);
+}
+.pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+.pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    /* font-weight: 500; */
+    color: #088178;
+    background-color:#e8f6ea ;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    transition:0.2s ease;
+}
+.pro .cart:hover{
+    background-color:#baf9c3 ;
+    box-shadow: 5px 5px -10px rgb(0, 0, 0,0.5);
+
+}
+.pro .cart:active{
+    background-color:rgb(250, 250, 205) ;
+
+    box-shadow: 5px 5px -10px rgb(0, 0, 0,0.5);
+}
